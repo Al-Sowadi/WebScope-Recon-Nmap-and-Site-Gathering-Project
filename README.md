@@ -36,7 +36,7 @@ pip install -r requirements1.txt
 Run the script by providing the target application URL and domain:
 
 ```bash
-python script_name.py
+python webSiteInfo.py
 ```
 
 ## Features
@@ -112,7 +112,7 @@ This Python script integrates Nmap, a powerful network scanning tool, to perform
 2. Run the script using the following command:
 
 ```bash
-python nmap_integration.py <target> [-o <output_file>]
+python NmapLike.py <target> [-o <output_file>]
 
 ```
 Install the requirements using:
@@ -155,7 +155,7 @@ pip install beautifulsoup4 requests
 ## Usage
 - Run the script:
 ```bash
-python scraper.py
+python crawl_and_extract_emails.py
 ```
 - Enter the target URL and the maximum number of pages to crawl as prompted.
 - The script will display the extracted email addresses.
