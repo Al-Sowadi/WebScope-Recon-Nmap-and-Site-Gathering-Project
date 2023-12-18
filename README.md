@@ -130,3 +130,37 @@ pip install -r requirements2.txt
 
 <target>: Specify the target IP address or domain for the Nmap scan.
 -o <output_file>: Specify an output file for saving the scan results.
+
+# Web Scraper for Email Addresses
+
+This Python script is a simple web scraper that extracts email addresses from a given target URL by crawling through its pages.
+
+## Features
+
+- Crawls a specified target URL and extracts email addresses.
+- Uses BeautifulSoup for HTML parsing and requests for making HTTP requests.
+- Allows users to specify the maximum number of pages to crawl.
+
+## Requirements
+
+- Python 3.x
+- BeautifulSoup 4
+- requests
+
+Install the required dependencies using:
+
+```bash
+pip install beautifulsoup4 requests
+
+```
+## Usage
+- Run the script:
+```bash
+python scraper.py
+```
+- Enter the target URL and the maximum number of pages to crawl as prompted.
+- The script will display the extracted email addresses.
+
+## Disclaimer
+Use this script responsibly and in compliance with the terms of service of the websites you are scraping.
+Be aware that web scraping may be against the terms of service of some websites.
