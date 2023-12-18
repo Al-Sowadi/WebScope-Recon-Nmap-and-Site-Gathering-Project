@@ -2,7 +2,7 @@
 ## Overview
 WebScope Recon is a comprehensive Python toolkit designed for web reconnaissance, network scanning, and site information gathering. This project brings together three essential components:
 
-# Web Reconnaissance Toolkit
+# 1. Web Reconnaissance Toolkit
 
 The Web Reconnaissance Toolkit is a Python script that performs reconnaissance and gathers information about a target application and domain using various tools and techniques.
 
@@ -97,7 +97,7 @@ Retrieves and displays the content of the `robots.txt` file for the target domai
 Uses `selenium` to capture screenshots of the target domain.
 
 
-# Nmap Integration Script
+# 2. Nmap Integration Script
 
 This Python script integrates Nmap, a powerful network scanning tool, to perform scans on a target. It provides a clean and organized output, removing unwanted lines and sections for better readability.
 
@@ -133,7 +133,7 @@ pip install -r requirements2.txt
 <target>: Specify the target IP address or domain for the Nmap scan.
 -o <output_file>: Specify an output file for saving the scan results.
 
-# Web Scraper for Email Addresses
+# 3. Web Scraper for Email Addresses
 
 This Python script is a simple web scraper that extracts email addresses from a given target URL by crawling through its pages.
 
