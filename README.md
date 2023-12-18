@@ -31,26 +31,56 @@ Install the dependencies using:
 ```bash
 pip install -r requirements1.txt
 ```
-##Usage
+## Usage
 Run the script by providing the target application URL and domain:
 
 ```bash
 python script_name.py
 ```
 
-##Features
-Fetch website content: Uses requests to make HTTP requests and retrieve the content of the target website.
-Extract technologies: Parses HTML content with Beautiful Soup to extract technologies used on the website.
-Perform reconnaissance on a target domain:
-Get IP addresses: Uses socket to get IP addresses associated with the target domain.
-Retrieve domain registration details: Uses whois to obtain WHOIS information about the domain.
-Enumerate subdomains: Uses dns.resolver to perform DNS enumeration and find subdomains.
-Banner grabbing and web crawling: Utilizes requests and BeautifulSoup to perform banner grabbing and web crawling.
-Obtain SSL certificate information: Uses cryptography to retrieve and parse SSL certificate information.
-Conduct traceroute: Uses subprocess to perform traceroute on the target domain.
-Perform GeoIP lookup: Utilizes geopy to perform GeoIP lookup for the target domain.
-Retrieve WHOIS information for IP addresses: Uses whois to obtain WHOIS information for the obtained IP addresses.
-Check security headers: Retrieves and displays security headers of the target domain.
-Analyze robots.txt: Retrieves and displays the content of the robots.txt file for the target domain.
-Capture screenshots: Uses selenium to capture screenshots of the target domain.
+## Features
+Certainly! Here's the Future section in the requested format:
+
+## Features
+
+- **Fetch Website Content:**
+  - `requests`: For making HTTP requests
+
+- **Extract Technologies:**
+  - `bs4` (Beautiful Soup): For parsing HTML content
+
+- **Perform Reconnaissance on a Target Domain:**
+  - **Get IP Addresses:**
+    - `socket`: For working with sockets and getting host information
+
+  - **Retrieve Domain Registration Details:**
+    - `whois`: For retrieving WHOIS information about a domain
+
+  - **Enumerate Subdomains:**
+    - `dns.resolver`: For DNS-related operations
+
+  - **Banner Grabbing and Web Crawling:**
+    - `requests`: For making HTTP requests
+    - `bs4` (Beautiful Soup): For parsing HTML content
+
+  - **Obtain SSL Certificate Information:**
+    - `cryptography`: For working with SSL certificates
+
+  - **Conduct Traceroute:**
+    - `subprocess`: For running shell commands
+
+  - **Perform GeoIP Lookup:**
+    - `geopy`: For performing GeoIP lookup
+
+  - **Retrieve WHOIS Information for IP Addresses:**
+    - `whois`: For retrieving WHOIS information about a domain
+
+  - **Check Security Headers:**
+    - `requests`: For making HTTP requests
+
+  - **Analyze `robots.txt`:**
+    - `requests`: For making HTTP requests
+
+  - **Capture Screenshots:**
+    - `selenium`: For capturing screenshots (install ChromeDriver separately)
 
