@@ -1,0 +1,28 @@
+# requirements1.txt
+
+# Basic HTTP requests
+requests==2.26.0
+
+# Working with sockets and getting host information
+# This is part of the Python standard library, so no specific version is needed.
+
+# Retrieving WHOIS information about a domain
+python-whois==0.7.3
+
+# DNS-related operations
+dnspython==2.1.0
+
+# Parsing HTML content
+beautifulsoup4==4.10.0
+
+# Performing network scanning
+python-nmap==0.6.1
+
+# Working with SSL certificates
+cryptography==35.0.0
+
+# Performing GeoIP lookup
+geopy==2.2.0
+
+# Capturing screenshots (install ChromeDriver separately)
+selenium==3.141.0
