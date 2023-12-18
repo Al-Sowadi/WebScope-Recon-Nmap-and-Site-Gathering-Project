@@ -94,3 +94,34 @@ Retrieves and displays the content of the `robots.txt` file for the target domai
 
 Uses `selenium` to capture screenshots of the target domain.
 
+
+## Nmap Integration Script
+
+This Python script integrates Nmap, a powerful network scanning tool, to perform scans on a target. It provides a clean and organized output, removing unwanted lines and sections for better readability.
+
+## Table of Contents
+
+- [Usage](#usage)
+- [Features](#features)
+- [Command-line Options](#command-line-options)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Usage
+
+1. Ensure you have Nmap installed on your system.
+2. Run the script using the following command:
+
+```bash
+python nmap_integration.py <target> [-o <output_file>]
+
+```
+## Features
+- Integrates Nmap for network scanning.
+- Provides a clean and organized output by removing unwanted lines and sections.
+- Supports saving scan results to an output file.
+  
+### Command-line Options
+
+<target>: Specify the target IP address or domain for the Nmap scan.
+-o <output_file>: Specify an output file for saving the scan results.
