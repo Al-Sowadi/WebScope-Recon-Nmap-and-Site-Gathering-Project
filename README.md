@@ -39,48 +39,58 @@ python script_name.py
 ```
 
 ## Features
-Certainly! Here's the Future section in the requested format:
+Certainly! Here's the Features section
+### Fetch Website Content:
 
-## Features
+Uses `requests` to make HTTP requests and retrieve the content of the target website.
 
-- **Fetch Website Content:**
-  - `requests`: For making HTTP requests
+### Extract Technologies:
 
-- **Extract Technologies:**
-  - `bs4` (Beautiful Soup): For parsing HTML content
+Parses HTML content with `Beautiful Soup` to extract technologies used on the website.
 
-- **Perform Reconnaissance on a Target Domain:**
-  - **Get IP Addresses:**
-    - `socket`: For working with sockets and getting host information
+### Perform Reconnaissance on a Target Domain:
 
-  - **Retrieve Domain Registration Details:**
-    - `whois`: For retrieving WHOIS information about a domain
+#### Get IP Addresses:
 
-  - **Enumerate Subdomains:**
-    - `dns.resolver`: For DNS-related operations
+Uses `socket` to get IP addresses associated with the target domain.
 
-  - **Banner Grabbing and Web Crawling:**
-    - `requests`: For making HTTP requests
-    - `bs4` (Beautiful Soup): For parsing HTML content
+#### Retrieve Domain Registration Details:
 
-  - **Obtain SSL Certificate Information:**
-    - `cryptography`: For working with SSL certificates
+Uses `whois` to obtain WHOIS information about the domain.
 
-  - **Conduct Traceroute:**
-    - `subprocess`: For running shell commands
+#### Enumerate Subdomains:
 
-  - **Perform GeoIP Lookup:**
-    - `geopy`: For performing GeoIP lookup
+Uses `dns.resolver` to perform DNS enumeration and find subdomains.
 
-  - **Retrieve WHOIS Information for IP Addresses:**
-    - `whois`: For retrieving WHOIS information about a domain
+#### Banner Grabbing and Web Crawling:
 
-  - **Check Security Headers:**
-    - `requests`: For making HTTP requests
+Utilizes `requests` and `BeautifulSoup` to perform banner grabbing and web crawling.
 
-  - **Analyze `robots.txt`:**
-    - `requests`: For making HTTP requests
+#### Obtain SSL Certificate Information:
 
-  - **Capture Screenshots:**
-    - `selenium`: For capturing screenshots (install ChromeDriver separately)
+Uses `cryptography` to retrieve and parse SSL certificate information.
+
+#### Conduct Traceroute:
+
+Uses `subprocess` to perform traceroute on the target domain.
+
+#### Perform GeoIP Lookup:
+
+Utilizes `geopy` to perform GeoIP lookup for the target domain.
+
+#### Retrieve WHOIS Information for IP Addresses:
+
+Uses `whois` to obtain WHOIS information for the obtained IP addresses.
+
+#### Check Security Headers:
+
+Retrieves and displays security headers of the target domain.
+
+#### Analyze `robots.txt`:
+
+Retrieves and displays the content of the `robots.txt` file for the target domain.
+
+#### Capture Screenshots:
+
+Uses `selenium` to capture screenshots of the target domain.
 
