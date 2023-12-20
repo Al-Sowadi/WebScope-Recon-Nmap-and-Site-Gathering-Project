@@ -2,7 +2,7 @@
 ## Overview
 WebScope Recon is a comprehensive Python toolkit designed for web reconnaissance, network scanning, and site information gathering. This project brings together three essential components:
 
-# 1-Web Reconnaissance Toolkit
+# 1-Multi-faceted Cyber Reconnaissance Tool
 
 The Web Reconnaissance Toolkit is a Python script that performs reconnaissance and gathers information about a target application and domain using various tools and techniques.
 
